@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive nav</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a href="#" class="logo">logo</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">portfolio</a></li>
+            </ul>
+        </nav>
+        <nav class="mob">
+            <div class="hamburger">
+                <i class="fas fa-bars" id="bars" onclick="shownav()"></i>
+                <i class="fas fa-times" id="times"onclick="hide()"></i>
+
+            </div>
+            <ul id="mobul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">portfolio</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/b09da3d382.js" crossorigin="anonymous"></script>
+
+    <script src="cust.js"></script>
+</body>
+</html>
